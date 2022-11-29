@@ -1,0 +1,11 @@
+vim9script
+
+def StripTrailingWhitespaces()
+    var l = line(".")
+    var c = col(".")
+    :%s/\s\+$//e
+    cursor(l, c)
+enddef
+autocmd BufWritePre * StripTrailingWhitespaces()
+
+defcompile
