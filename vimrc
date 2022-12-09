@@ -98,6 +98,7 @@ Plug 'tpope/vim-git'
 Plug 'tpope/vim-fugitive'
 Plug 'junegunn/gv.vim'        " git commit browser
 Plug 'rhysd/committia.vim'    " better overview when comitting
+Plug 'rhysd/git-messenger.vim'  " better git blame like stuff
 
 " languages
 Plug 'zig-lang/zig.vim',                   { 'for': 'zig' }
