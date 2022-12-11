@@ -116,6 +116,7 @@ Plug 'srcery-colors/srcery-vim'
 Plug 'dguo/blood-moon',                    {'rtp': 'applications/vim'}
 Plug 'jorengarenar/vim-darkness'   " set notermguicolors
 Plug 'ayu-theme/ayu-vim'
+Plug 'taffyquinzel/chaos.vim'
 
 call plug#end()
 
